@@ -137,6 +137,10 @@ export default function Home() {
   const about = profile?.content.about
     ? String(profile.content.about)
     : "I connect business needs, user requirements and technology to deliver practical solutions.";
+  const about_me = profile?.content.about_me
+    ? String(profile.content.about_me)
+    : "I connect business needs, user requirements and technology to deliver practical solutions.";
+
 
   const role = profile?.content.role
     ? String(profile.content.role)
@@ -403,7 +407,7 @@ export default function Home() {
             <h2 className="mb-7 text-4xl font-medium leading-tight tracking-tight md:text-5xl lg:text-6xl">
               Business context.<br /><span className="text-white/30">Technical curiosity.</span><br /><span className="accent-gradient">Real-world impact.</span>
             </h2>
-            <p className="text-base leading-8 text-white/60">{about}</p>
+            <p className="text-base leading-8 text-white/60">{about_me}</p>
             <p className="mt-5 leading-8 text-white/50">
               I enjoy connecting user needs, business objectives and technical
               implementation — from analysing digital product behaviour to
@@ -488,7 +492,7 @@ export default function Home() {
                   <div className="p-6 sm:p-8">
                     <div className="mb-4 flex items-center justify-between gap-4">
                       <span className="eyebrow">
-                        {project.section.toUpperCase()}
+                        PROFESSIONAL IMPACT
                       </span>
                       <span className="text-xl text-[#b7e653] transition-transform group-hover:translate-x-1">
                         ↗
@@ -750,7 +754,7 @@ export default function Home() {
         <div className="glow-orb absolute -right-20 -top-20 h-72 w-72" />
 
         <div className="relative px-7 py-20 text-center sm:px-12 sm:py-28">
-          <p className="eyebrow mb-6">06 — WHAT&apos;S NEXT?</p>
+          <p className="eyebrow mb-6">06 — DID I INTEREST YOU??</p>
           <h2 className="mx-auto max-w-4xl text-4xl font-medium tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             Have a problem
             <br />
